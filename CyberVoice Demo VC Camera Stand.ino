@@ -31,16 +31,16 @@ void loop() {
         break;
       // Serial 回傳正整數，代表辨識到的指令 ID
       case 1:
-        TurnAround("LEFT", 10);        // 向左轉 5 度
+        TurnAround("LEFT", 10);        // 向左轉 10 度
         break;
       case 2:
-        TurnAround("RIGHT", 10);       // 向右轉 5 度
+        TurnAround("RIGHT", 10);       // 向右轉 10 度
         break;
       case 3:
-        TurnAround("LEFT", 30);       // 向左轉 10 度
+        TurnAround("LEFT", 30);       // 向左轉 30 度
         break;
       case 4:
-        TurnAround("RIGHT", 30);      // 向右轉 10 度
+        TurnAround("RIGHT", 30);      // 向右轉 30 度
         break;
       case 5:
         TurnAround("LEFT", 180);       // 向左轉到底
